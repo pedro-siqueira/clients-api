@@ -6,3 +6,12 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Client {
+  id Int @id @default(autoincrement())
+  name String
+  email String @unique
+  birthdate DateTime @db.Date
+  phone String?
+  cpf String @unique
+}
