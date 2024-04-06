@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  clients-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clients-api
+    restart: always
+    ports:
+      - '3000:3000'
+    depends_on:
+      - clients-db
+    env_file:
+      - .env
+
+  clients-db:
+    image: postgres:14
+    container_name: clients-db
+    restart: always
+    ports:
+      - '5432:5432'
+    env_file:
+      - .env
+    volumes:
+      - clients-db:/var/lib/postgresql/data
+
+volumes:
+  clients-db:
+    name: clients-db
