@@ -3,7 +3,10 @@ import { ClientsService } from './clients.service';
 import { CreateClientDto } from './dto/create-client.dto';
 import { UpdateClientDto } from './dto/update-client.dto';
 
-@Controller('clients')
+@Controller({
+  version: '1',
+  path: 'clients',
+})
 export class ClientsController {
   constructor(private readonly clientsService: ClientsService) {}
 

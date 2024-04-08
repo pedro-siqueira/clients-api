@@ -27,13 +27,13 @@ Suba os containers
 #### Buscar Clientes
 
 ```
-  GET /clients
+  GET /v1/clients
 ```
 
 #### Get item
 
 ```
-  GET /clients/${id}
+  GET /v1/clients/${id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -43,7 +43,7 @@ Suba os containers
 #### Registrar cliente
 
 ```
-  POST /clients
+  POST /v1/clients
 ```
 Body esperado
 | Field | Type     | Description                       |
@@ -58,7 +58,7 @@ Body esperado
 #### Atualizar cliente
 
 ```
-  PATCH /clients/${id}
+  PATCH /v1/clients/${id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -77,7 +77,7 @@ Body esperado
 #### Excluir cliente
 
 ```
-  DELETE /clients/${id}
+  DELETE /v1/clients/${id}
 ```
 
 | Parameter | Type     | Description                       |

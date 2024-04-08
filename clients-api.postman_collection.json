@@ -12,12 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/clients",
+					"raw": "localhost:3000/v1/clients",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"v1",
 						"clients"
 					]
 				}
@@ -30,12 +31,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/clients/1",
+					"raw": "localhost:3000/v1/clients/1",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"v1",
 						"clients",
 						"1"
 					]
@@ -58,12 +60,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000/clients",
+					"raw": "localhost:3000/v1/clients",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"v1",
 						"clients"
 					]
 				}
@@ -85,12 +88,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000/clients/2",
+					"raw": "localhost:3000/v1/clients/2",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"v1",
 						"clients",
 						"2"
 					]
@@ -104,12 +108,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/clients/8",
+					"raw": "localhost:3000/v1/clients/8",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
+						"v1",
 						"clients",
 						"8"
 					]
