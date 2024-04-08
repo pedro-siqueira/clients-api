@@ -26,13 +26,13 @@ Suba os containers
 
 #### Buscar Clientes
 
-```http
+```
   GET /clients
 ```
 
 #### Get item
 
-```http
+```
   GET /clients/${id}
 ```
 
@@ -42,7 +42,7 @@ Suba os containers
 
 #### Registrar cliente
 
-```http
+```
   POST /clients
 ```
 Body esperado
@@ -57,7 +57,7 @@ Body esperado
 
 #### Atualizar cliente
 
-```http
+```
   PATCH /clients/${id}
 ```
 
@@ -76,7 +76,7 @@ Body esperado
 
 #### Excluir cliente
 
-```http
+```
   DELETE /clients/${id}
 ```
 
